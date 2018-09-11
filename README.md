@@ -15,4 +15,4 @@ AD Security Audit Solution collects security events from domain controllers and 
 *	Locked user accounts with the source where account locked
 *	Domain user logged on Computer by its IP address and the updated time and date.
 
-![alt text](images/overview_tiles.png "Overview")
+![alt text](images/Overview_tiles.png "Overview")
