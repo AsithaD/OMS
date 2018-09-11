@@ -16,3 +16,6 @@ AD Security Audit Solution collects security events from domain controllers and 
 *	Domain user logged on Computer by its IP address and the updated time and date.
 
 ![alt text](images/Overview_tiles.png "Overview")
+
+
+![alt text](images/Users&GroupsView.png "Users and Groups View")
