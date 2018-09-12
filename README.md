@@ -45,3 +45,15 @@ This will send you to the Azure Portal with some default values for the template
 It is important that you type the exact values for your workspace name and resource group name, and points to the regions where these resources are deployed.
 
 ![alt text](images/Template.png "Template")
+
+The ingestion will start 5-10 minutes post deployment.
+
+Summery
+If you enabled auditing on domain controllers, it will generate a far amount of security data which you can use to search for events such as failed login or locked users. But searching this using native event viewer is not easy. OMS log analytics can be used to search these events and it will provide the information in rich presentable manner. 
+AD Security Audit solution is designed with number of these important use cases most customer face day in today's business. It will help you to identify 
+*	User’s login to the domain with a time range
+*	Users failed to login to the domain, incorrect password attempts, number of attempts, time where the failed attempts are made.
+*	Find the locked accounts. And from where the account was locked. Mainly accounts are locked by domain security policy after regularly failed attempts. But its hard to find where these attempts are made. You can use log analytics to track failed login attempts and generated IP address of those failed attempts.
+*	User accounts and groups created and by whom
+*	Any group membership changes, added to the group, removed from the group and who did this change. This is very important when domain admin group membership changes.
+
