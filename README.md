@@ -15,11 +15,13 @@ AD Security Audit Solution collects security events from domain controllers and 
 *	Locked user accounts with the source where account locked
 *	Domain user logged on Computer by its IP address and the updated time and date.
 
+#### Overview of the two views
 ![alt text](images/Overview_tiles.png "Overview")
 
-Users And Groups Monitoring
+#### Users And Groups Monitoring View
 ![alt text](images/Users&GroupsView.png "Users and Groups View")
-User Account Security Monitoring
+
+#### User Account Security Monitoring view
 ![alt text](images/UserAccountSecurity_View.png "Users Account Security View")
 ![alt text](images/UserAccountSecurity_View2.png "Users Account Security View")
 
@@ -48,7 +50,7 @@ It is important that you type the exact values for your workspace name and resou
 
 The ingestion will start 5-10 minutes post deployment.
 
-Summery
+## Summery
 If you enabled auditing on domain controllers, it will generate a far amount of security data which you can use to search for events such as failed login or locked users. But searching this using native event viewer is not easy. OMS log analytics can be used to search these events and it will provide the information in rich presentable manner. 
 AD Security Audit solution is designed with number of these important use cases most customer face day in today's business. It will help you to identify 
 *	User’s login to the domain with a time range
