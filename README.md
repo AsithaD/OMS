@@ -25,11 +25,11 @@ User Account Security Monitoring
 
 ## Prerequisites 
 
-#### OMS Log Analytics Workspace
+* #### OMS Log Analytics Workspace
 Log analytics workplace is required to host this solution. You can either select the free version or the paid version. Free version supports 500mb of daily upload and 7 days of retention. 
-#### Azure Security Center license 
+* #### Azure Security Center license 
 Azure Security Center licensing is required to collect Security event and search from Domain controllers. This is also known as OMS Security and Compliance license. Azure Security Center is offered in two tiers: Free and Standard. The Standard tier is free for the first 60 days. You can either use the free tier or use the standard node license to all domain controllers. 
-### OMS Agent installed in Domain controllers. 
-### OMS agent should be installed in every domain controller.
-### OMS workplace name and Resource group name
+* #### OMS Agent installed in Domain controllers. 
+OMS agent should be installed in every domain controller.
+* #### OMS workplace name and Resource group name
 To deploy the solution you should know the OMS workspace name and the its related resource group name, for the current version you have to deploy it to the same resource group with the workspace
