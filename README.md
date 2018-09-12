@@ -44,4 +44,4 @@ Locate your existing OMS Log Analytics Workspace and note the name of the worksp
 This will send you to the Azure Portal with some default values for the template parameters. Ensure that the parameters reflects your setup so that you are deploying this into the existing Resource Group containing the Log Analytics Workspace and the Automation account.
 It is important that you type the exact values for your workspace name and resource group name, and points to the regions where these resources are deployed.
 
-![alt text](images/template.png "Template")
+![alt text](images/Template.png "Template")
