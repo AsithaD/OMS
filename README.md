@@ -38,15 +38,18 @@ OMS agent should be installed in every domain controller.
 To deploy the solution you should know the OMS workspace name and the its related resource group name, for the current version you have to deploy it to the same resource group with the workspace
 
 
+
 ## Deploying the Active Directory Security Audit Solution
 ### Follow these instructions to deploy the solution into an existing OMS workspace
 Log into Azure Portal (https://portal.azure.com) and ensure you are in the subscription containing your OMS Workspace
 Locate your existing OMS Log Analytics Workspace and note the name of the workspace, the location of the workspace, and the Resource Group
+
 ![alt text](images/WorkplaceInfo.png "Workspace Information")
 
 ### You can now deploy the template
 This will send you to the Azure Portal with some default values for the template parameters. Ensure that the parameters reflects your setup so that you are deploying this into the existing Resource Group containing the Log Analytics Workspace and the Automation account.
 It is important that you type the exact values for your workspace name and resource group name, and points to the regions where these resources are deployed.
+
 
 ![alt text](images/Template.png "Template")
 
