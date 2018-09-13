@@ -23,6 +23,7 @@ AD Security Audit Solution collects security events from domain controllers and 
 
 #### User Account Security Monitoring view
 ![alt text](images/UserAccountSecurity_View.png "Users Account Security View")
+
 ![alt text](images/UserAccountSecurity_View2.png "Users Account Security View")
 
 ## Prerequisites 
