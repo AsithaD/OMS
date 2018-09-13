@@ -37,6 +37,7 @@ OMS agent should be installed in every domain controller.
 * #### OMS workplace name and Resource group name
 To deploy the solution you should know the OMS workspace name and the its related resource group name, for the current version you have to deploy it to the same resource group with the workspace
 
+
 ## Deploying the Active Directory Security Audit Solution
 ### Follow these instructions to deploy the solution into an existing OMS workspace
 Log into Azure Portal (https://portal.azure.com) and ensure you are in the subscription containing your OMS Workspace
