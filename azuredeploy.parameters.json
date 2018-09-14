@@ -1,16 +1,15 @@
 {
-  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
-    "contentVersion": "1.0.0.0",
-    "parameters": {
-        "workspaceName": {
-            "type": "string"
-        },
-       
-        "workspaceRegionId": {
-            "type": "string"
-  
-
-  
-        }
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "workspaceName": {
+      "value": "GEN-UNIQUE-20"
+    },
+    "pricingTier": {
+      "value": "Standalone"
+    },
+    "workspaceRegionId": {
+      "value": "East US"
+    }
   }
 }
