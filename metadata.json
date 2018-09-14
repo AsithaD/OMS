@@ -2,8 +2,8 @@
   "$schema": "https://aka.ms/azure-quickstart-templates-metadata-schema#",
   "type": "QuickStart",
   "itemDisplayName": "OMS Active Directory Security Audit Solution",
-  "description": "Active Directory Security Audit Solution",
-  "summary": "This template deploys the OMS Active Directory Security Audit Solution",
+  "description": "This solution collects security events from domain controllers and filter them with Azure log analytics queries to visualize in OMS Dashboards. It have two dashboards named Users And Groups Monitoring View and User Account Security Monitoring view",
+  "summary": "This template deploys the Active Directory Security Audit Solution to your exsisting OMS worksplace",
   "githubUsername": "AsithaD",
   "dateUpdated": "2018-09-03"
 }
